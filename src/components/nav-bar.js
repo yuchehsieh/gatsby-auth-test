@@ -24,6 +24,8 @@ export default () => {
         {` `}
         <Link to="/app/profile">Profile</Link>
         {` `}
+        <Link to="/app/videos">Videos</Link>
+        {` `}
         {isLoggedIn() ? (
           <a
             href="/"
